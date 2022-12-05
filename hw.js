@@ -320,7 +320,7 @@ function isTodayMyBirthday(birthday) {
     }
 }
 
-console.log("today is my birthday?", isTodayMyBirthday("12/01/22"));
+console.log("today is my birthday?", isTodayMyBirthday("11/02/22"));
 
 
 
@@ -633,7 +633,7 @@ function onlyInThisMillennium(movies) {
     let modernMovies = [];
     for (let index = 0; index < movies.length; index++) {
         let movie = movies[index];
-        if (movie.Year > 2000) {
+        if (movie.Year > 1999) {
             modernMovies.push(movie);
         }
     }
